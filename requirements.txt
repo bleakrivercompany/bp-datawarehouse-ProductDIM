@@ -1,6 +1,5 @@
 requests
 pandas
-math
 flatten_json
 numpy
 datetime
@@ -8,4 +7,3 @@ google-cloud-storage
 google-cloud-secret-manager
 google-cloud-core
 google-auth
-json
