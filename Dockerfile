@@ -12,5 +12,7 @@ RUN pip install --no-cache-dir -r requirements.txt
 # This is the crucial step that includes gcp_utils.py
 COPY . .
 
+EXPOSE 8080
+
 # Command to run your main script when the container starts
 CMD ["python", "main.py"]
